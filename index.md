@@ -1,6 +1,6 @@
-# Data Science Portfolio
+# My Projects on GitHub
 ---
-## Machine learning
+## AWS Useful Scripts
 
 ### AWS Assume Role Scripts
 Useful scripts for getting assume role/ temp credentials for aws accounts.
@@ -8,7 +8,7 @@ Useful scripts for getting assume role/ temp credentials for aws accounts.
 The repository contains two script files. Any of these scripts can be used to get the credentials from the AWS account based on the feasibility.
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/mahesh031/aws-assume-role-scripts)
 
-<center><img src="images/fraud_detection.jpg"/></center>
+<center><img src="assets/img/aws-iam.png"/></center>
 
 
 ---
@@ -24,6 +24,6 @@ On private subnets, all the services will be running inside the docker container
 
 While troubleshooting the issue, most of the times, one has to get into this machines and run few commands to check if the containers are up or check the docker logs. Since this is mundane task, having the script which does this in an automated way would be desirable.
 
-<center><img src="images/financial_modeling.jpg"/></center>
+<center><img src="assets/img/aws-iam.png"/></center>
 
 
