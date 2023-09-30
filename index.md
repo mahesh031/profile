@@ -1,123 +1,29 @@
+# Data Science Portfolio
 ---
-layout: default
+## Machine learning
+
+### AWS Assume Role Scripts
+Useful scripts for getting assume role/ temp credentials for aws accounts.
+
+The repository contains two script files. Any of these scripts can be used to get the credentials from the AWS account based on the feasibility.
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/mahesh031/aws-assume-role-scripts)
+
+<center><img src="images/fraud_detection.jpg"/></center>
+
+
 ---
+### AWS Jump Host Scripts
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/mahesh031/aws-jump-host-scripts)
 
-[Link to another page](./another-page.html).
+Scripts provide easy way getting access to provate EC2 instances behind Jump host server
 
-There should be whitespace between paragraphs.
+Most of the deployments on AWS includes public and private subnets.
+On public subnets, jump host server will be running in the form of EC2 instance and are publicly accessible using pre-built trust mechanisms such as by using SSH key pairs.
+On private subnets, all the services will be running inside the docker containers on EC2 instance.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+While troubleshooting the issue, most of the times, one has to get into this machines and run few commands to check if the containers are up or check the docker logs. Since this is mundane task, having the script which does this in an automated way would be desirable.
 
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+<center><img src="images/financial_modeling.jpg"/></center>
 
 
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
