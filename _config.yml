@@ -1,6 +1,16 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+title: <p align="center"> Mahesh Kavatage</p>
+logo: /assets/img/photo.jpg
+description:
+  <p align="center">  
+  <a href="https://www.linkedin.com/in/mahesh-kavatage-23620130/">LinkedIn</a> |
+  <a href="https://github.com/mahesh031">GitHub</a>
+  
+  <br>   
+  I am a Java backend developer having 18+ years of experience building highle scalable applications.
+  I'm also learning ML and AI now.     
+  <br>
+  </p>
+
+
+
 theme: jekyll-theme-minimal
